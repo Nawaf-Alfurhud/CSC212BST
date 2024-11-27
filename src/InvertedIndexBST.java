@@ -57,7 +57,7 @@ public class InvertedIndexBST {
 		}
 	}
 
-	//Big-O: O(n + m)
+	//Big-O: O(n)
 	public void TraverseInOrder(BSTNode node) {
 		if (node != null) {
 			TraverseInOrder(node.getLeft());
